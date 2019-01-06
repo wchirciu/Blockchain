@@ -1,0 +1,642 @@
+PROCESS 0 CONSOLE OUTPUT: 
+
+C:\Users\william\workspace\Block Chain Assignment\bin>java Blockchain 0
+Starting the Public Key Server input thread using 4710
+Starting the Unverified Block Server input thread using 4820
+Starting the blockchain server input thread using 4930
+Received Public Key from Process 2
+Received Public Key from Process 1
+Process 0 reading in data from BlockInput0.txt
+
+Console Commands:
+V :  Verify Blockchain
+C :  Block Record Credit
+R Filename : Read in file data
+L :  List block on console
+Starting the Unverified Block Priority Queue Consumer thread.
+
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>33402e3a-eaf1-488f-aba8-e2f064306210</BlockID>
+    <creatingProcess>0</creatingProcess>
+    <diagnosis>Chickenpox</diagnosis>
+    <doB>1996.03.07</doB>
+    <FName>John</FName>
+    <LName>Smith</LName>
+    <medicine>aspirin</medicine>
+    <SSN>123-45-6789</SSN>
+    <signedUUIN>r/diboZ8qeIrw+6QMjIP1wSK0fGSGis65ywhDHJ4sqKAY0AQNfe2BQBadhrBs7Hl
+wDm20d/s2n7E6MM3QSkqIvPTlyfPPQEru7eEd6SJa8oIhOjyOXwpoYM9Ve5JM8lR+DgS2obvXuges3Ph
+kKkRrtRj0xX3vRPbrFxZjtvlfMY=</signedUUIN>
+    <timeStamp>23.34.00</timeStamp>
+    <treatment>BedRest</treatment>
+</BlockRecord>
+
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>dc047f8b-21ca-4149-bd5c-fe7799305141</BlockID>
+    <creatingProcess>0</creatingProcess>
+    <diagnosis>Smallpox</diagnosis>
+    <doB>1996.03.07</doB>
+    <FName>Joe</FName>
+    <LName>Blow</LName>
+    <medicine>Whiskey</medicine>
+    <SSN>123-45-6888</SSN>
+    <signedUUIN>o1PP2qUiMUQwD1l6+lF3negzjxKisyWOi16tu1Da3buKX4gaT1G0qzKnL0vBHeek
+INYjtYAro1fysxzlVxEPfoLm8SGWfb1Dy0WgGLfurDpxEQTCibst3z0lsI32MwFGR8N0vv8oMrxRfN0u
+A2ba6yfEXiBuLyU7MnbCBGZp+7I=</signedUUIN>
+    <timeStamp>23.34.00</timeStamp>
+    <treatment>BedRest</treatment>
+</BlockRecord>
+
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>616d9eef-de81-42f4-95fb-dacb638d703a</BlockID>
+    <creatingProcess>0</creatingProcess>
+    <diagnosis>Insomnia</diagnosis>
+    <doB>1996.03.07</doB>
+    <FName>Julie</FName>
+    <LName>Wilson</LName>
+    <medicine>HotPeppers</medicine>
+    <SSN>123-45-6999</SSN>
+    <signedUUIN>kqUqtN7+BD/DNp5bDLXDH5i30K6wfC36hp3G9c4yWAIHx3ACQuL7ZfKuQsV5bgz8
+174SqfCkVCiWyUDnrc6jiEjfrhey8rzm0x6lMJJJEtpBvR9Buty1W5hJhHLnxLyWjqgpuYYkYSTYBddN
+ZGJ9VFkM1RkpaY5YEbkf0yx0HM0=</signedUUIN>
+    <timeStamp>23.34.01</timeStamp>
+    <treatment>Exercise</treatment>
+</BlockRecord>
+
+Unverified block received from Process 0
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>fee164e3-84bd-4c58-9dae-34956c4c76b7</BlockID>
+    <creatingProcess>0</creatingProcess>
+    <diagnosis>Measles</diagnosis>
+    <doB>1942.07.07</doB>
+    <FName>Wayne</FName>
+    <LName>Blaine</LName>
+    <medicine>CodLiverOil</medicine>
+    <SSN>123-45-6777</SSN>
+    <signedUUIN>Yj4vewu8e0/6l6yOnKqwUbv9Usc9sMAmGdoShfdqcfWoY6j/R/MR/D9JMWx+yuxW
+RwZCyhsq6ljkj7eD0kQ9cGPRnhxzt2SZU9RMmre1DuDlZ4crSqH+I0HA+i89g447s8QHfhIXX88buPnA
+Se0HZrZJ799JxkvNbri6BZ7dCoY=</signedUUIN>
+    <timeStamp>23.34.01</timeStamp>
+    <treatment>WaitToGetBetter</treatment>
+</BlockRecord>
+
+Unverified block received from Process 0
+Unverified block received from Process 0
+Unverified block received from Process 0
+Unverified block received from Process 2
+Unverified block received from Process 2
+Unverified block received from Process 2
+Unverified block received from Process 2
+Unverified block received from Process 1
+Unverified block received from Process 1
+Unverified block received from Process 1
+Unverified block received from Process 1
+Puzzle Solved
+Hash: 081037D2FEA60864ACDBA25CDEDDF9BB7D06227DE37333C90A87654256B5099F
+workNumber 2064 is less than 20,000
+Received a new Blockchain from Process 2
+Puzzle Solved
+Hash: 169A1EA07EF7B69305BF0779AB7A5E0BAAAD1A1229B99A6F563921352A13DA7E
+workNumber 5786 is less than 20,000
+Received a new Blockchain from Process 2
+Received a new Blockchain from Process 2
+Received a new Blockchain from Process 2
+Puzzle Solved
+Hash: 001F9CD094A50E46B34A33E3EA30C17377F1B9A986794FAD8F973257349797C6
+workNumber 31 is less than 20,000
+Received a new Blockchain from Process 1
+Received a new Blockchain from Process 1
+Received a new Blockchain from Process 1
+Received a new Blockchain from Process 2
+Received a new Blockchain from Process 2
+V									//Verify Blockchain
+Blocks 1-12 in the blockchain have been verified.
+C									//List credits
+P0: 1, 3, 7,
+P1: 8, 9, 10,
+P2: 2, 4, 5, 6, 11, 12,
+L									//List Blocks
+12 23.34.01 Wayne Blaine Measles WaitToGetBetter CodLiverOil
+11 23.34.01 John Kennedy AddisonsDisease DrugTherapy Steroids
+10 23.34.01 Julie Wilson Insomnia Exercise HotPeppers
+9 23.34.01 Helen Keller Arthritis WarmCloths Aspirin
+8 23.34.01 Abraham Lincoln GreviousWound Surgery Whiskey
+7 23.34.01 Joe DiMaggio SoreKnees RestFromSports Aspirin
+6 23.34.01 Rita Vita ObessivePersonality TryToRelax Ibuprofen
+5 23.34.01 Wei Xu Shingles WaitForRelief Zovirax
+4 23.34.01 Sally McCutty Migraine IcePack Almotriptan
+3 23.34.01 Bruce Lee SoreStomach LessCombat Vicodine
+2 23.34.00 Joe Blow Smallpox BedRest Whiskey
+1 23.34.00 John Smith Chickenpox BedRest aspirin
+
+R file.txt								//Read in new data
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>9aaa1308-cf63-4e4c-8b73-59eec010fb00</BlockID>
+    <creatingProcess>0</creatingProcess>
+    <diagnosis>GunShot</diagnosis>
+    <doB>1972.08.27</doB>
+    <FName>John</FName>
+    <LName>Wick</LName>
+    <medicine>HardLiquor</medicine>
+    <SSN>698-45-6789</SSN>
+    <signedUUIN>Ep2OyVX+ZlWxnilKH9tgoJErb9dkdH+knGI8j7mc+FKXmBXq5JusopGbsAir8HYM
+M3ZrEN/SZ6IlDf/usH5Z9CeVtkozZPWElw2xdDR4hUQgBW5rimix0N/PptZNDIiSQwo3FJPVukrPGMYf
+whR5taW5RMR/f4i+SOb4C+Rb9/s=</signedUUIN>
+    <timeStamp>23.35.02</timeStamp>
+    <treatment>BulletExtraction</treatment>
+</BlockRecord>
+
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>ea95c59a-5ac8-4754-a307-0ae4dee3e70b</BlockID>
+    <creatingProcess>0</creatingProcess>
+    <diagnosis>ThirdDegreeBurns</diagnosis>
+    <doB>1970.03.12</doB>
+    <FName>James</FName>
+    <LName>Bond</LName>
+    <medicine>PainKillers</medicine>
+    <SSN>456-45-6888</SSN>
+    <signedUUIN>Jn2JGJlCl3XbXhY1cPLcdJhMgDKOb4Pf/NhizVEAl7NFIjw62Db6UaX0Wy8B+KBO
+rSg/k19GS6MleyeI4TPu55ArQyvS9XVQwi0pOv6+k7+NdO4OoF89JJFF/yLTF6ezin/jjZEALfqKLxjs
+NiK/TtptsADDz9lbIa+SrHi68s4=</signedUUIN>
+    <timeStamp>23.35.02</timeStamp>
+    <treatment>BurnTreatment</treatment>
+</BlockRecord>
+
+Unverified block received from Process 0
+Unverified block received from Process 0
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>a53edac8-7a8d-40fe-a205-04d55e85808d</BlockID>
+    <creatingProcess>0</creatingProcess>
+    <diagnosis>BrokenArm</diagnosis>
+    <doB>1969.09.29</doB>
+    <FName>Tom</FName>
+    <LName>Cruise</LName>
+    <medicine>LotsOfRest</medicine>
+    <SSN>369-45-6999</SSN>
+    <signedUUIN>exUzMKd+bTTDTxjdB+uhS/cgw98MKbgCZEdFqkhFP+8ah/6p7+AWfFxq2O4TtNgu
+LVHFUXqlDNcBefuUb4yOC5wxvwlGMzAhUQ1aOgdjOUp8xVj5ZNMhFa7ZCVUcivRhZ3aKIHIsSGTGGGG8
+uhQM/iGJ7DVi3j9HHsyvIa/x7eg=</signedUUIN>
+    <timeStamp>23.35.02</timeStamp>
+    <treatment>ArmCast</treatment>
+</BlockRecord>
+
+Unverified block received from Process 0
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>db56492c-7427-47f2-90a4-b652e5c7cc1f</BlockID>
+    <creatingProcess>0</creatingProcess>
+    <diagnosis>ThroeatCancer</diagnosis>
+    <doB>1968.12.25</doB>
+    <FName>Dave</FName>
+    <LName>Chappelle</LName>
+    <medicine>LotsOfMeds</medicine>
+    <SSN>112-22-3333</SSN>
+    <signedUUIN>lZYuJ7jFKGKU5w0LwB/dIVpTmQOYgvDZCGcckFypr5AqU94j+f7vb0arU3WtaBYO
+8ePVXPekb/jL/mwItFcLpMwXK8IXcaP0mR7TjwGVDpQfJkMB6cKC42WWjCtU946gh5IPQLyPicX9m/Y4
+KOiYBHwzaU7bjLU7zyyDpEWOxUw=</signedUUIN>
+    <timeStamp>23.35.02</timeStamp>
+    <treatment>Khemo</treatment>
+</BlockRecord>
+
+Unverified block received from Process 0
+Received a new Blockchain from Process 1
+Received a new Blockchain from Process 1
+Received a new Blockchain from Process 2
+Received a new Blockchain from Process 2
+V									//Verify Blockchain
+Blocks 1-16 in the blockchain have been verified.
+C									//List credits
+P0: 1, 3, 7,
+P1: 8, 9, 10, 13, 14,
+P2: 2, 4, 5, 6, 11, 12, 15, 16,
+L									//List blocks
+16 23.35.02 Tom Cruise BrokenArm ArmCast LotsOfRest
+15 23.35.02 Dave Chappelle ThroeatCancer Khemo LotsOfMeds
+14 23.35.02 James Bond ThirdDegreeBurns BurnTreatment PainKillers
+13 23.35.02 John Wick GunShot BulletExtraction HardLiquor
+12 23.34.01 Wayne Blaine Measles WaitToGetBetter CodLiverOil
+11 23.34.01 John Kennedy AddisonsDisease DrugTherapy Steroids
+10 23.34.01 Julie Wilson Insomnia Exercise HotPeppers
+9 23.34.01 Helen Keller Arthritis WarmCloths Aspirin
+8 23.34.01 Abraham Lincoln GreviousWound Surgery Whiskey
+7 23.34.01 Joe DiMaggio SoreKnees RestFromSports Aspirin
+6 23.34.01 Rita Vita ObessivePersonality TryToRelax Ibuprofen
+5 23.34.01 Wei Xu Shingles WaitForRelief Zovirax
+4 23.34.01 Sally McCutty Migraine IcePack Almotriptan
+3 23.34.01 Bruce Lee SoreStomach LessCombat Vicodine
+2 23.34.00 Joe Blow Smallpox BedRest Whiskey
+1 23.34.00 John Smith Chickenpox BedRest aspirin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROCESS 1 CONSOLE OUTPUT:
+
+C:\Users\william\workspace\Block Chain Assignment\bin>java Blockchain 1
+Starting the Public Key Server input thread using 4711
+Starting the Unverified Block Server input thread using 4821
+Starting the blockchain server input thread using 4931
+Received Public Key from Process 2
+Received Public Key from Process 0
+Unverified block received from Process 0
+Unverified block received from Process 0
+Unverified block received from Process 0
+Unverified block received from Process 0
+Unverified block received from Process 2
+Unverified block received from Process 2
+Unverified block received from Process 2
+Process 1 reading in data from BlockInput1.txt
+
+Console Commands:
+V :  Verify Blockchain
+C :  Block Record Credit
+R Filename : Read in file data
+L :  List block on console
+Starting the Unverified Block Priority Queue Consumer thread.
+
+Unverified block received from Process 2
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>32c46268-4584-4b02-83d9-fa3253e8001b</BlockID>
+    <creatingProcess>1</creatingProcess>
+    <diagnosis>ObessivePersonality</diagnosis>
+    <doB>1992.01.31</doB>
+    <FName>Rita</FName>
+    <LName>Vita</LName>
+    <medicine>Ibuprofen</medicine>
+    <SSN>999-456-789</SSN>
+    <signedUUIN>DAOJQzEiRj4fVf4gTLOIaRk/T9e51fCKT0IOD6heFLlkwipgIYe3+XUjEJRSSY/z
+6HwoVVA7dFvpy2j0R/SRQgIJjT1gEJTutjWPWGEtONa+p2q8Va9vDiF0XlHVVSWwcoK0ZOxr8Phl+2Vw
+cVUPrr8TrFOGw+AHesU+9BMfhvI=</signedUUIN>
+    <timeStamp>23.34.01</timeStamp>
+    <treatment>TryToRelax</treatment>
+</BlockRecord>
+
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>0f7e3fa8-8d99-4c0a-819d-f7d8d6454cbb</BlockID>
+    <creatingProcess>1</creatingProcess>
+    <diagnosis>Shingles</diagnosis>
+    <doB>1996.03.22</doB>
+    <FName>Wei</FName>
+    <LName>Xu</LName>
+    <medicine>Zovirax</medicine>
+    <SSN>123-456-333</SSN>
+    <signedUUIN>DbnSLtXptKr02UbbRCeFP9aEvvqVbfo6xGRLi1KHPJeu01iZ+EXqfXSvurvwPYET
+gp3q6GPK6bSQALH4InZ/2wCdEaQlsfv9I7p10rjcaKSDvwd3liH368Lwk+RCcJBnhEG3Hz4Y7gkDxrBu
+WR8vnXYGTTPiwInymakXgijQ7Kw=</signedUUIN>
+    <timeStamp>23.34.01</timeStamp>
+    <treatment>WaitForRelief</treatment>
+</BlockRecord>
+
+Unverified block received from Process 1
+Unverified block received from Process 1
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>72032bef-8b4d-4513-a75f-85ec2e77f70d</BlockID>
+    <creatingProcess>1</creatingProcess>
+    <diagnosis>Migraine</diagnosis>
+    <doB>1970.01.01</doB>
+    <FName>Sally</FName>
+    <LName>McCutty</LName>
+    <medicine>Almotriptan</medicine>
+    <SSN>123-456-999</SSN>
+    <signedUUIN>MdAJ5ZXk41k34z8p9IZ7q13pbZctoEBSdbfE2N+HQofEMFBxvlEdldEQrcZaOQhj
+b386yv/H5YgLAM6FBwO20kqIb9e1II+uEfJzNMG5QfXjH8vVnEDpIAa+5SqQEm3oANhsYuk80FUHlSit
++9Fbxl7hqLBzh4S1NA/CUZWQIGM=</signedUUIN>
+    <timeStamp>23.34.01</timeStamp>
+    <treatment>IcePack</treatment>
+</BlockRecord>
+
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>fb1ac5ad-1798-4fcd-ba66-ad85ad52eb1b</BlockID>
+    <creatingProcess>1</creatingProcess>
+    <diagnosis>SoreStomach</diagnosis>
+    <doB>1940.11.27</doB>
+    <FName>Bruce</FName>
+    <LName>Lee</LName>
+    <medicine>Vicodine</medicine>
+    <SSN>456-789-123</SSN>
+    <signedUUIN>IaZsHUaw+otfbK+w93IUZwzhwymxRKhp0hn2bgr+zyN8ZThtjxwAwp7BU3A0yZLX
+lVeuwrpvnWX+s+O7miNnvjQCWYBksya0M9qCXUfGHrbgHhBemfi+hyoxpcCgW7rLI0p7e3MLDIuJUZ0w
+Ql2kgFk6XU8idpaMnSbWUOox11Q=</signedUUIN>
+    <timeStamp>23.34.01</timeStamp>
+    <treatment>LessCombat</treatment>
+</BlockRecord>
+
+Unverified block received from Process 1
+Unverified block received from Process 1
+Received a new Blockchain from Process 0
+Received a new Blockchain from Process 2
+Received a new Blockchain from Process 0
+Received a new Blockchain from Process 2
+Received a new Blockchain from Process 2
+Received a new Blockchain from Process 2
+Received a new Blockchain from Process 0
+Puzzle Solved
+Hash: 1EB2FF3C789650E781F75B370B6FBA438A0EF1FCACDE21B5DFB979E4E2C18E9D
+workNumber 7858 is less than 20,000
+Puzzle Solved
+Hash: 493E6E8BB59296B0BD71B996EBB94946DDBADADB9D04C42C962D66C56B21E2B9
+workNumber 18750 is less than 20,000
+Puzzle Solved
+Hash: 2437163A792D7541055C0CBB461D889DE25AF08CCB26EC3BBCE1380637BE16B9
+workNumber 9271 is less than 20,000
+Received a new Blockchain from Process 2
+Received a new Blockchain from Process 2
+V
+Blocks 1-12 in the blockchain have been verified.
+C
+P0: 1, 3, 7,
+P1: 8, 9, 10,
+P2: 2, 4, 5, 6, 11, 12,
+L
+12 23.34.01 Wayne Blaine Measles WaitToGetBetter CodLiverOil
+11 23.34.01 John Kennedy AddisonsDisease DrugTherapy Steroids
+10 23.34.01 Julie Wilson Insomnia Exercise HotPeppers
+9 23.34.01 Helen Keller Arthritis WarmCloths Aspirin
+8 23.34.01 Abraham Lincoln GreviousWound Surgery Whiskey
+7 23.34.01 Joe DiMaggio SoreKnees RestFromSports Aspirin
+6 23.34.01 Rita Vita ObessivePersonality TryToRelax Ibuprofen
+5 23.34.01 Wei Xu Shingles WaitForRelief Zovirax
+4 23.34.01 Sally McCutty Migraine IcePack Almotriptan
+3 23.34.01 Bruce Lee SoreStomach LessCombat Vicodine
+2 23.34.00 Joe Blow Smallpox BedRest Whiskey
+1 23.34.00 John Smith Chickenpox BedRest aspirin
+
+Unverified block received from Process 0
+Puzzle Solved
+Hash: 462E6B8AF66C101DE2F9476487165C5C907EE027FF5C6932279197D20A007534
+workNumber 17966 is less than 20,000
+Unverified block received from Process 0
+Unverified block received from Process 0
+Unverified block received from Process 0
+Puzzle Solved
+Hash: 2A59CC96DCC33849DF0BDFF32CD2936B3AA32EE4C0832FE026BFEE2843AD9DD7
+workNumber 10841 is less than 20,000
+Received a new Blockchain from Process 2
+Received a new Blockchain from Process 2
+V
+Blocks 1-16 in the blockchain have been verified.
+C
+P0: 1, 3, 7,
+P1: 8, 9, 10, 13, 14,
+P2: 2, 4, 5, 6, 11, 12, 15, 16,
+L
+16 23.35.02 Tom Cruise BrokenArm ArmCast LotsOfRest
+15 23.35.02 Dave Chappelle ThroeatCancer Khemo LotsOfMeds
+14 23.35.02 James Bond ThirdDegreeBurns BurnTreatment PainKillers
+13 23.35.02 John Wick GunShot BulletExtraction HardLiquor
+12 23.34.01 Wayne Blaine Measles WaitToGetBetter CodLiverOil
+11 23.34.01 John Kennedy AddisonsDisease DrugTherapy Steroids
+10 23.34.01 Julie Wilson Insomnia Exercise HotPeppers
+9 23.34.01 Helen Keller Arthritis WarmCloths Aspirin
+8 23.34.01 Abraham Lincoln GreviousWound Surgery Whiskey
+7 23.34.01 Joe DiMaggio SoreKnees RestFromSports Aspirin
+6 23.34.01 Rita Vita ObessivePersonality TryToRelax Ibuprofen
+5 23.34.01 Wei Xu Shingles WaitForRelief Zovirax
+4 23.34.01 Sally McCutty Migraine IcePack Almotriptan
+3 23.34.01 Bruce Lee SoreStomach LessCombat Vicodine
+2 23.34.00 Joe Blow Smallpox BedRest Whiskey
+1 23.34.00 John Smith Chickenpox BedRest aspirin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROCESS 2 CONSOLE OUTPUT:
+
+C:\Users\william\workspace\Block Chain Assignment\bin>java Blockchain 2
+Starting the Public Key Server input thread using 4712
+Starting the blockchain server input thread using 4932
+Starting the Unverified Block Server input thread using 4822
+Received Public Key from Process 1
+Received Public Key from Process 0
+Unverified block received from Process 0
+Unverified block received from Process 0
+Unverified block received from Process 0
+Unverified block received from Process 0
+Process 2 reading in data from BlockInput2.txt
+
+Console Commands:
+V :  Verify Blockchain
+C :  Block Record Credit
+R Filename : Read in file data
+L :  List block on console
+Starting the Unverified Block Priority Queue Consumer thread.
+
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>5bfc5b91-7a3f-42a7-9636-e31784dfe1bf</BlockID>
+    <creatingProcess>2</creatingProcess>
+    <diagnosis>Arthritis</diagnosis>
+    <doB>1880.06.27</doB>
+    <FName>Helen</FName>
+    <LName>Keller</LName>
+    <medicine>Aspirin</medicine>
+    <SSN>666-45-6789</SSN>
+    <signedUUIN>iZBsfQaDkOdYTmHOHUa6SbM/WA5Wlq4gOnq0UvLcNzCBKWaLGkMHMojg9ynI3dQ9
+DYRy2AXRImPluTKzjkzfhQB7eFIAXOIqQhRB5cvCVqT7LgL8LhOHpc0jFq0U7doxIMQe5az5iJQZuzZ1
+zanOtglbAmW1QKFrneOmvtxr45E=</signedUUIN>
+    <timeStamp>23.34.01</timeStamp>
+    <treatment>WarmCloths</treatment>
+</BlockRecord>
+
+Unverified block received from Process 2
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>6b950bab-17c3-4679-a2aa-a495d82c89d1</BlockID>
+    <creatingProcess>2</creatingProcess>
+    <diagnosis>GreviousWound</diagnosis>
+    <doB>1809.02.12</doB>
+    <FName>Abraham</FName>
+    <LName>Lincoln</LName>
+    <medicine>Whiskey</medicine>
+    <SSN>444-45-6888</SSN>
+    <signedUUIN>AtOXQM+cBeXmtEPl483iOuz0dfvitjG7VkKXTH8e8YyHsb/zHUA8mnY/K/Y3DynP
+dN9Cj50Liezsy8zSjgQem/zgWvhec3qF0wwIcYvhi5yghM9c99bKw+HgkoFMpvmnL5hzQ+z3XkbLGsH9
+0iPuzGA/K/HrTrqmfAY06TqmjDw=</signedUUIN>
+    <timeStamp>23.34.01</timeStamp>
+    <treatment>Surgery</treatment>
+</BlockRecord>
+
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>db3a9c51-997a-4bfc-9d54-561eed6ad7ad</BlockID>
+    <creatingProcess>2</creatingProcess>
+    <diagnosis>AddisonsDisease</diagnosis>
+    <doB>1917.05.29</doB>
+    <FName>John</FName>
+    <LName>Kennedy</LName>
+    <medicine>Steroids</medicine>
+    <SSN>333-45-6999</SSN>
+    <signedUUIN>HxzpRc72s1z++3HNW5BTcV0jwTuGe0uaAAk+LjDDT672UocgxAbkN/nQvwya3gfN
+reqt6rX9qtcoT9jzp/jjPuRc0KMFq0XAcsBM8DWV5JQJrhfsumyyhjt8KFUoINbyemzo/CKRd3cphoqK
+KL922/BlV7MPgPfgETleS0bM//Q=</signedUUIN>
+    <timeStamp>23.34.01</timeStamp>
+    <treatment>DrugTherapy</treatment>
+</BlockRecord>
+
+Unverified block received from Process 2
+Unverified block received from Process 2
+Data read into block:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockRecord>
+    <BlockID>24f51912-f60e-4ad4-a4c9-b954e06225b9</BlockID>
+    <creatingProcess>2</creatingProcess>
+    <diagnosis>SoreKnees</diagnosis>
+    <doB>1914.11.25</doB>
+    <FName>Joe</FName>
+    <LName>DiMaggio</LName>
+    <medicine>Aspirin</medicine>
+    <SSN>111-22-3333</SSN>
+    <signedUUIN>noOx9+tJsaBKVwFCSfQ8kSbXu3693lJhOZoq8s4KQ9PxKGHcEGMFpGqKNC9ocA/3
+Q8yadvwX4BttD57iGHz1cuk3ZUC6PDhN1dnFUma8/jVjyTUqolUrQOAGax5YdbTASk+CXdFsPID8Gqfs
+k+RR6bCosY+2pacl0iQHjzXylik=</signedUUIN>
+    <timeStamp>23.34.01</timeStamp>
+    <treatment>RestFromSports</treatment>
+</BlockRecord>
+
+Unverified block received from Process 2
+Unverified block received from Process 1
+Unverified block received from Process 1
+Unverified block received from Process 1
+Unverified block received from Process 1
+Received a new Blockchain from Process 0
+Puzzle Solved
+Hash: 2BDC11DC89C171BD6824A09CDFD252CBCB987A813CBD8C686314FFDBEF5D3872
+workNumber 11228 is less than 20,000
+Received a new Blockchain from Process 0
+Puzzle Solved
+Hash: 45A526552425D2E23D55BDBA394DFFE119D02F79F47791AB9C64963461F68BC1
+workNumber 17829 is less than 20,000
+Puzzle Solved
+Hash: 3652F724D20611C6089676045CCC067A0E52EC55FC3F77FA324A1E0B20E9E95F
+workNumber 13906 is less than 20,000
+Puzzle Solved
+Hash: 4A0BD1A275494A4F6B1C5230F630CBBF09E5291F7931AF84E437008F794A4DB4
+workNumber 18955 is less than 20,000
+Received a new Blockchain from Process 0
+Received a new Blockchain from Process 1
+Received a new Blockchain from Process 1
+Received a new Blockchain from Process 1
+Puzzle Solved
+Hash: 05CB63FD1ADC34F258543B400185A922F8981CE02E91A1E25C4E1A7E33116444
+workNumber 1483 is less than 20,000
+Puzzle Solved
+Hash: 2A025BCF529077CDE3786E91CA347A10DF510CCAB72ECEE366A40BC630EB6DF8
+workNumber 10754 is less than 20,000
+V
+Blocks 1-12 in the blockchain have been verified.
+C
+P0: 1, 3, 7,
+P1: 8, 9, 10,
+P2: 2, 4, 5, 6, 11, 12,
+L
+12 23.34.01 Wayne Blaine Measles WaitToGetBetter CodLiverOil
+11 23.34.01 John Kennedy AddisonsDisease DrugTherapy Steroids
+10 23.34.01 Julie Wilson Insomnia Exercise HotPeppers
+9 23.34.01 Helen Keller Arthritis WarmCloths Aspirin
+8 23.34.01 Abraham Lincoln GreviousWound Surgery Whiskey
+7 23.34.01 Joe DiMaggio SoreKnees RestFromSports Aspirin
+6 23.34.01 Rita Vita ObessivePersonality TryToRelax Ibuprofen
+5 23.34.01 Wei Xu Shingles WaitForRelief Zovirax
+4 23.34.01 Sally McCutty Migraine IcePack Almotriptan
+3 23.34.01 Bruce Lee SoreStomach LessCombat Vicodine
+2 23.34.00 Joe Blow Smallpox BedRest Whiskey
+1 23.34.00 John Smith Chickenpox BedRest aspirin
+
+Unverified block received from Process 0
+Unverified block received from Process 0
+Unverified block received from Process 0
+Unverified block received from Process 0
+Received a new Blockchain from Process 1
+Received a new Blockchain from Process 1
+Puzzle Solved
+Hash: 3405540378930BFFAAAB5904FA41BEAA12EE53D0CF4ED7FBC80313732A45201D
+workNumber 13317 is less than 20,000
+Puzzle Solved
+Hash: 0290311939228A4FDBA591DCBBA458B6241B0E518B1746D295633986B27AFBDC
+workNumber 656 is less than 20,000
+V
+Blocks 1-16 in the blockchain have been verified.
+C
+P0: 1, 3, 7,
+P1: 8, 9, 10, 13, 14,
+P2: 2, 4, 5, 6, 11, 12, 15, 16,
+L
+16 23.35.02 Tom Cruise BrokenArm ArmCast LotsOfRest
+15 23.35.02 Dave Chappelle ThroeatCancer Khemo LotsOfMeds
+14 23.35.02 James Bond ThirdDegreeBurns BurnTreatment PainKillers
+13 23.35.02 John Wick GunShot BulletExtraction HardLiquor
+12 23.34.01 Wayne Blaine Measles WaitToGetBetter CodLiverOil
+11 23.34.01 John Kennedy AddisonsDisease DrugTherapy Steroids
+10 23.34.01 Julie Wilson Insomnia Exercise HotPeppers
+9 23.34.01 Helen Keller Arthritis WarmCloths Aspirin
+8 23.34.01 Abraham Lincoln GreviousWound Surgery Whiskey
+7 23.34.01 Joe DiMaggio SoreKnees RestFromSports Aspirin
+6 23.34.01 Rita Vita ObessivePersonality TryToRelax Ibuprofen
+5 23.34.01 Wei Xu Shingles WaitForRelief Zovirax
+4 23.34.01 Sally McCutty Migraine IcePack Almotriptan
+3 23.34.01 Bruce Lee SoreStomach LessCombat Vicodine
+2 23.34.00 Joe Blow Smallpox BedRest Whiskey
+1 23.34.00 John Smith Chickenpox BedRest aspirin
